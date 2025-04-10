@@ -33,6 +33,6 @@ public class Student implements Serializable {
 
     @Override
     public String toString() {
-        return rollNo + " - " + name + " (" + courses + "), Age: " + age;
+        return rollNo + " - " + name + " (" + course + "), Age: " + age;
     }
 }
